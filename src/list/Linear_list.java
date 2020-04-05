@@ -91,6 +91,10 @@ public class Linear_list implements List {
 		l.insert(1, "12345");
 		l.insert(1, "1234567");
 		l.insert(1, "12345678");
+		l.remove(1);
+		l.display();
+		l.indexOf("12345678");
+		l.clear();
 		l.display();
 	}
 
